@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: gravcms
+    env: docker
+    branch: main
+    dockerfilePath: ./Dockerfile
+    dockerContext: ./
